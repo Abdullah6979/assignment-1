@@ -1,0 +1,192 @@
+/*common shared style*/
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.banner-container {
+    background-image: url('../image/Banner.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.child-1 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 160px 520px 0px;
+}
+
+.child-2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+/*main section*/
+.main-container {
+    margin-top: 120px;
+}
+
+.container-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-text1 {
+    margin-top: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12ppx;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container-last {
+    margin: 8px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-container-pic {
+    margin-top: 48px;
+    margin-left: 34%;
+}
+
+.section-container {
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background-image: url(../image/Vectorrr.png);
+    display: flex;
+
+}
+
+.section-child {
+    text-align: left;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-weight: 900px;
+    line-height: 38px;
+    letter-spacing: 3.01px;
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.section-child2 {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.main-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: yellowgreen;
+    border: 0;
+    padding: 15px 35px;
+    margin-left: 110px;
+
+}
+
+.section-text {
+    justify-content: space-between;
+}
+
+
+.section-pic {
+    display: flex;
+    width: 290px;
+    height: 410px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 90px;
+    padding-left: 180px;
+}
+
+/*date and time section*/
+
+.section2 {
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    Copy <svg xmlns="http://www.w3.org/2000/svg" width="1320" height="482" viewBox="0 0 1320 482" fill="none"><path d="M1304 0H16C7.16344 0 0 7.16344 0 16V466C0 474.837 7.16343 482 16 482H1304C1312.84 482 1320 474.837 1320 466V16C1320 7.16344 1312.84 0 1304 0Z" fill="url(#paint0_linear_114_9913)" fill-opacity="0.1" /><defs><linearGradient id="paint0_linear_114_9913" x1="660" y1="0" x2="660" y2="482" gradientUnits="userSpaceOnUse"><stop stop-color="#FF0000" /><stop offset="1" stop-color="#FF0000" stop-opacity="0" /></linearGradient></defs></svg>;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.date {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.same-style {
+    color: #F00;
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: yellowgreen;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 48px;
+    border: none;
+
+}
+
+.buton {
+    padding-left: 45px;
+}
+
+.section-text {
+    padding-top: 70px;
+}
